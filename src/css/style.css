@@ -16,6 +16,7 @@ body
 section
 {
     display: flex;
+    justify-content: center;
     
     margin: 0 auto;
 
@@ -212,11 +213,6 @@ h2
 
 /* 3rd block section */
 
-.featured_plants
-{
-    display: block;
-}
-
 h3
 {   
     color: #000000;
@@ -320,7 +316,7 @@ h3
     height: 609.9px;
 }
 
-/*  */
+/* 5th block section */
 
 .shop_ad
 {
@@ -533,3 +529,28 @@ footer
     height: 22px;
 }
 
+
+
+
+
+/* media queries */
+
+@media (max-width: 1270px)
+{
+    section
+    {
+        margin: 0 56px;
+
+        justify-content: space-between;
+    }
+
+    .welcoming_frame
+    {
+        margin: 0 auto 142px auto;
+    }
+    
+    .pros
+    {
+        margin: 0 auto 80px auto;
+    }
+}
