@@ -762,4 +762,40 @@ input
         font-size: 1.6em;
     }
 
+    footer
+    {
+        font-size: larger;
+    }
+
+    .adress
+    {
+        margin-left: 85px;
+    }
+
+    .box
+    {
+        margin: auto;
+    }
+
+    .email
+    {
+        margin-right: 85px;
+    }
+
+    .hn
+    {
+        font-size: 1.1em;
+    }
+
+    input
+    {
+        font-size: 1em;
+        border: 2px solid #818181;
+    }
+
+    #submit
+    {
+        font-size: 1em;
+    }
+
 }
