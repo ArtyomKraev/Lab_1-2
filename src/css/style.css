@@ -739,27 +739,72 @@ input
         font-size: 2.7em;
     }
 
+    .slogan_frame
+    {
+        width: auto;
+        height: auto;
+    }
+
     .slogan
     {
         font-size: 3.15em;
+        width: auto;
         height: auto;
     }
 
     .txt-3
     {
         font-size: 2em;
-        height: auto; 
+        width: auto;
+        height: auto;
         line-height: initial;
     }
 
     #img-2
     {
+        width: 1168px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #img-3
+    {
         display: none;
+    }
+
+    .shop_ad
+    {
+        flex-direction: column;
+        height: auto; 
+        flex-wrap: wrap;
+    }
+    
+    .phrase
+    {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .ad_block
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+
+    #img-4
+    {
+        width: 640px;
+        margin: 0 auto;
     }
 
     #visit_shop_link
     {
         font-size: 1.6em;
+        margin: auto;
+        height: auto;
     }
 
     footer
